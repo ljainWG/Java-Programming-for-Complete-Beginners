@@ -15,6 +15,7 @@ public class LeapYearChecker {
         LeapYearChecker obj = new LeapYearChecker();
         boolean result = obj.isLeapYear(year);
         System.out.printf("%d is %s year",year,(result?"a leap":"not a leap"));
+        sc.close();
 
     }
 }
