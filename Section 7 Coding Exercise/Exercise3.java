@@ -18,7 +18,7 @@ public class Exercise3 {
 int hrToMin = Exercise3.convertHoursToMinutes(24);
 int dayToMin = Exercise3.convertDaysToMinutes(24);
 System.out.println("24 hrs into min is equla to "+hrToMin+" mins");
-System.out.println("24 days into min is equal to "dayToMin+" mins");
+System.out.println("24 days into min is equal to "+dayToMin+" mins");
   }
 
 }
