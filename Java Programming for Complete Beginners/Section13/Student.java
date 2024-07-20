@@ -41,4 +41,5 @@ public class Student {
         System.out.println("Student got "+result+" grade.");
         sc.close();
     }
+    
 }

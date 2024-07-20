@@ -1,0 +1,19 @@
+	static void print(int num) {
+		System.out.println(num);
+	}
+
+	static void print(String s) {
+		System.out.println(s);
+	}
+
+	public static void main(String[] args) {
+		
+		MyNumber.printSquareLimit(30);
+		print("");
+		MyNumber.printCubeLimit(30);
+		print("");
+
+		MyNumber.findFactorial();
+		print("");
+	}
+}
