@@ -1,5 +1,3 @@
-package com.in28min.FirstJavaProject;
-
 public class MultiplicationTable {
 	
 	void printTable() {

@@ -1,5 +1,3 @@
-package com.in28min.FirstJavaProject;
-
 public class MultiplicationTableRunner {
 	
 		public static void main(String[] args) {

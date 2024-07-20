@@ -1,4 +1,3 @@
-
 public class Exercise1 {
     
     public int hello() {
