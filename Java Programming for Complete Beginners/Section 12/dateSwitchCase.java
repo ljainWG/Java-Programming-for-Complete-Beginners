@@ -1,13 +1,18 @@
-public class SwitchExerciseRunner {
+public class dateSwitchCase {
 
 	private static String isWeekDay(int WeekDay) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		switch (WeekDay) {
-		case 1, 2, 3, 4, 5: 			return "True"; 
-		case 6, 7 :		return "False"; // fall through for nonWeek days
-    default : return "Invalid input"
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5: 			return "True"; 
+		case 6:
+		case 7 :		return "False"; // fall through for nonWeek days
+    	default : return "Invalid input";
 		}
-		return ;
+
 	}
 
 	public static String determineNameOfDay(int DayNumber) {
@@ -65,7 +70,7 @@ public class SwitchExerciseRunner {
 		}
 	}
 public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		System.out.println(determineNameOfDay(12));
 		System.out.println(determineNameOfMonth(12));
 		System.out.println(isWeekDay(12));
