@@ -10,7 +10,7 @@ public class ReverseNumber {
      * @return reversed number, or -1 if number is negative, or 0 if number is zero.
      */
     public int reverseNumber(int number) {
-        // TODO: Write your code here
+        // Write your code here
         if(number<0)
         return -1;
         int result=0;

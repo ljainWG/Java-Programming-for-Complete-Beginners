@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class mathsOperationMenu {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		// type obj = new type(arguement
 		System.out.println("Enter number1: ");

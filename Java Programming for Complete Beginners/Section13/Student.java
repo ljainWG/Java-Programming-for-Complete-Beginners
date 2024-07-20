@@ -4,12 +4,12 @@ public class Student {
     private int marks;
 
     public Student(int marks) {
-        // TODO: Assign 'marks' to the instance variable 'this.marks'
+        // Assign 'marks' to the instance variable 'this.marks'
         this.marks=marks;
     }
 
     public char assignGrade() {
-        // TODO: Implement the method which assigns the grade based on marks.
+        // Implement the method which assigns the grade based on marks.
         // If marks are less than 0 or greater than 100, return 'X'
         // If marks are greater than or equal to 90, return 'A'
         // If marks are greater than or equal to 80, return 'B'

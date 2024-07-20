@@ -26,13 +26,13 @@ public class Point {
         return this.y;
     }
 
-    // TODO: Implement the method to move the point by dx and dy in x and y direction respectively
+    // Implement the method to move the point by dx and dy in x and y direction respectively
     public void move(int dx, int dy) {
         this.x+=dx;
         this.y+=dy;
     }
 
-    // TODO: Implement the method to calculate the distance from this point to another point
+    // Implement the method to calculate the distance from this point to another point
     public double distanceTo(Point other) {
         double d2= Math.pow(this.x-other.x,2)+Math.pow(this.y-other.y,2);
         return Math.sqrt(d2);

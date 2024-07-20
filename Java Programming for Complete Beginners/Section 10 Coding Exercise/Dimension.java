@@ -5,7 +5,7 @@ public class Dimension {
     private int inches;
     
     public Dimension(int inches) {
-        // TODO: Convert the total inches into feet and inches. One foot is 12 inches.
+        // Convert the total inches into feet and inches. One foot is 12 inches.
         // Store the feet and inches in their respective instance variables.
         if (inches<0){
             this.inches=-1;
@@ -17,12 +17,12 @@ public class Dimension {
     }
     
     public int getFeet() {
-        // TODO: Return the value of feet.
+        // Return the value of feet.
         return this.feet;
     }
     
     public int getInches() {
-        // TODO: Return the value of inches.
+        // Return the value of inches.
         return this.inches;
     }    
 

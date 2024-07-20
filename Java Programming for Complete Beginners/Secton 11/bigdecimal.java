@@ -21,5 +21,6 @@ public class bigdecimal{
         System.out.println("Principal Amount = "+principal);
         System.out.println("Interest Earned Amount = "+interest);
         System.out.println("Total Amount = "+(interest.add(principal)));
+        sc.close();
     }
 }

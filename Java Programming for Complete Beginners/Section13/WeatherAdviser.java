@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class WeatherAdviser {
 
     public String provideWeatherAdvisory(int temperature) {
-        // TODO: Provide a weather advisory message based on the temperature.
+        // Provide a weather advisory message based on the temperature.
         if(temperature<0)
         return "It's freezing! Wear a heavy coat.";
         else if(temperature>=0 && temperature <11)

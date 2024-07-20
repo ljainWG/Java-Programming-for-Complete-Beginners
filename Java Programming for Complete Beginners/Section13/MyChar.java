@@ -7,7 +7,7 @@ public class MyChar {
         // Use a switch statement to check for each vowel, both lowercase and uppercase
         switch (ch) {
         
-            // TODO: Complete the switch statement
+            // Complete the switch statement
             case 'a' :
             case 'A' :
             case 'e' :

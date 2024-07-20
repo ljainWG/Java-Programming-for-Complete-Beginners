@@ -1,7 +1,7 @@
 public class Exercise1 {
     
     public int hello() {
-        //TODO: Make this return 1
+        // Make this return 1
         return 1;
     }
   public static void main(String[] args){

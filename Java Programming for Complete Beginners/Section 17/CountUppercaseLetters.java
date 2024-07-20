@@ -1,4 +1,5 @@
-public class StringMagic {
+import java.util.Scanner;
+public class CountUppercaseLetters {
     
     /**
      * This method counts the number of uppercase letters in a given string.
@@ -24,11 +25,12 @@ public class StringMagic {
         
     }
     public static void main(String[] args){
-        StringMagic obj = new StringMagic();
+        CountUppercaseLetters obj = new CountUppercaseLetters();
         System.out.println("Enter a string");
         Scanner sc = new Scanner(System.in);
-        String str= sc.next();
+        String str= sc.nextLine();
         int count= obj.countUppercaseLetters(str);
-        System.out.println("no of uppercase characters in %s is %d",str,count);
+        System.out.printf("Number of uppercase characters in \"%s\" is %d",str,count).println();
+        sc.close();
     }
 }
