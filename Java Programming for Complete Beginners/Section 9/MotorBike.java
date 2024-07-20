@@ -7,8 +7,8 @@ public class MotorBike {
 	int ownerContact, price;
 	int cSpeed; // cSpeed is current speed
 
-	MotorBike() {
-		Scanner sc = new Scanner(System.in);
+	MotorBike(Scanner sc) {
+		
 		System.out.print("Enter  company name : ");
 		this.cName = sc.next();
 
@@ -43,8 +43,8 @@ public class MotorBike {
 		System.out.println("Owner Contact number " + ownerContact);
 	}
 
-	void adjustSpeed() {
-		Scanner sc = new Scanner(System.in);
+	void adjustSpeed(Scanner sc) {
+		
 		System.out.println("Your Current Speed is " + cSpeed);
 		System.out.println("Change your speed to : ");
 		this.cSpeed = sc.nextInt();
@@ -53,9 +53,10 @@ public class MotorBike {
 	}
 
 	public static void main(String[] args) {
-		MotorBike b1 = new MotorBike();
+		Scanner sc = new Scanner(System.in);
+		MotorBike b1 = new MotorBike(sc);
 		b1.vehicledetails();
-		b1.adjustSpeed();
+		b1.adjustSpeed(sc);
 		
 	}
 
