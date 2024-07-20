@@ -18,6 +18,7 @@ public class FactorialCalculator {
         System.out.println("Enter a integer");
         int num=sc.nextInt();
         int result= obj.calculateFactorial(num);
-        System.out.printf("Factorial value of %d is %d",num,result).println();;
+        System.out.printf("Factorial value of %d is %d",num,result).println();
+        sc.close();
     }
 }
