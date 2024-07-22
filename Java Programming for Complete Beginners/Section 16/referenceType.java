@@ -1,4 +1,3 @@
-package com.section16.referenceType;
 
 public class referenceType {
 	public static void main(String[] args) {
